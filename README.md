@@ -57,7 +57,7 @@ modified - измененные файлы
 Типичный жизненный цикл файла в Git:  
 
 ```mermaid
-flowchart TD
+graph LR
     A[untracked] --git add --> B[staged + tracked];
     B -- git commit --> C[tracked];
     C -- changes --> D[modified];
